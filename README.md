@@ -3,8 +3,10 @@
 
 ## Summary
 
-Fine-tune identifier embedding vector for human images based on Google's [Dreambooth](https://arxiv.org/abs/2208.12242) with [Stable Diffusion](https://github.com/CompVis/stable-diffusion)! **Momentum Textual Inversion** is the enhanced optimizing methodology-in terms of fidelity and similarity compared to original personal data-originated from [Textual Inversion](https://github.com/rinongal/textual_inversion) in human-image domain. 
-In addition, I added some features including prompt engineering and facial loss to get high-fidelity generation. The follow overview is how I tackled enhancing fine-tuning embedding vector for human-images during internship on Generation Team at [NCSOFT Vision AI Lab](https://nc-ai.github.io/).  
+Fine-tune identifier embedding vector for human images based on Google's [Dreambooth](https://arxiv.org/abs/2208.12242) with [Stable Diffusion](https://github.com/CompVis/stable-diffusion)! 
+**Momentum Textual Inversion** is the enhanced optimizing methodology-in terms of fidelity and similarity compared to original personal data-originated from [Textual Inversion](https://arxiv.org/abs/2208.01618) in human-image domain. 
+In addition, I added some features including prompt engineering and facial loss to get high-fidelity generation. 
+The follow overview is how I tackled enhancing fine-tuning embedding vector for human-images during internship on Generation Team at [NCSOFT Vision AI Lab](https://nc-ai.github.io/). This code repository is based on that of [Textual Inversion](https://github.com/rinongal/textual_inversion).   
 
 ![img.png](assets/img_7.png)
 
