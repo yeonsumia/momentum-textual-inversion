@@ -1,0 +1,3 @@
+main.py 에서 model.embedding_manager = None으로 준 뒤 inference한 결과.
+*에 해당하는 embedding vector를 embedding_path로 주고 inference 하면 다른 결과 나옴 (why?)
+-> initial word를 woman으로 주니깐, *에 해당되는 embedding vector가 woman에 해당되는 embedding vector로 치환되어서 나와서 그럼. 이를 피하고자 class word를 *로 줄 것.
